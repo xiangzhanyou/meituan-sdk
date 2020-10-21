@@ -3,7 +3,7 @@
 
 ## 安装
 
-`composer require hanson/meituan-sdk:dev-master`
+`composer require xzy/meituan-sdk:dev-master`
 
 ## 文档
 
@@ -85,10 +85,6 @@ $coupon = $meituan->coupon;
 ### 具体API
 
 具体API可参考美团文档，只需要传业务级别的参数即可
-
-![QQ图片20170922125319.png](https://i.loli.net/2017/09/22/59c497680b28c.png)
-
-如此 API 即为
 
 ```
 $order->queryById('order-id');
